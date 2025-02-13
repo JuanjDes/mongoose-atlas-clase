@@ -3,7 +3,7 @@ const app = express();
 const { dbConnection } = require('./config/config');
 const routes = require('./routes');
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(express.json());
 
